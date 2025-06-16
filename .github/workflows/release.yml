@@ -119,5 +119,5 @@ jobs:
       - name: Update submodule
         run: git submodule update --init
       - run: |
-          docker build -t ghcr.io/firetail-io/kubernetes-sensor:${{ github.ref_name }} -f build_setup/Dockerfile .
+          docker build -t ghcr.io/firetail-io/kubernetes-sensor:${{ github.ref_name }} -f builder/Dockerfile .
           docker push ghcr.io/firetail-io/kubernetes-sensor:${{ github.ref_name }}
