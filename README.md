@@ -13,7 +13,7 @@
 > [!IMPORTANT]  
 > Supports Linux/Android kernel versions x86_64 4.18 and above, **aarch64 5.5** and above.
 > Need ROOT permission.
-> Does not support Windows and macOS system.
+> Does not support Windows [] and macOS system.
 
 ----
 
